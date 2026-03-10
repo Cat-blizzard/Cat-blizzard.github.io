@@ -1,7 +1,220 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duo Liu - Personal Homepage</title>
+    <style>
+        /* --- 基础样式 --- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* --- 头部区域 --- */
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        header h1 {
+            font-size: 2.2em;
+            margin-bottom: 10px;
+            color: #111;
+        }
+
+        header .affiliation {
+            font-size: 1.1em;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .social-links {
+            font-size: 1em;
+        }
+
+        .social-links a {
+            margin: 0 8px;
+        }
+
+        /* --- 通用章节样式 --- */
+        section {
+            margin-bottom: 35px;
+        }
+
+        section h2 {
+            font-size: 1.4em;
+            color: #222;
+            margin-bottom: 15px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #eee;
+        }
+
+        /* --- 列表项通用 --- */
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin-bottom: 15px;
+        }
+
+        /* --- 简历条目 (教育、经历) --- */
+        .entry .title {
+            font-weight: bold;
+        }
+
+        .entry .meta {
+            color: #666;
+            font-size: 0.95em;
+        }
+
+        /* --- 论文样式 --- */
+        .pub-title {
+            font-weight: bold;
+        }
+
+        .pub-authors {
+            font-size: 0.95em;
+        }
+
+        .pub-venue {
+            font-style: italic;
+            color: #444;
+        }
+
+        .pub-links {
+            font-size: 0.9em;
+            margin-top: 3px;
+        }
+
+        .pub-links a {
+            margin-right: 8px;
+        }
+
+        /* --- 占位提示文本 --- */
+        .placeholder {
+            color: #999;
+            font-style: italic;
+        }
+
+        /* --- 响应式适配 --- */
+        @media (max-width: 600px) {
+            body {
+                padding: 20px 15px;
+            }
+            header h1 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
 <body>
-  <h1>我的个人博客</h1>
-  <p>欢迎访问！</p>
+
+<div class="container">
+
+    <!-- 1. 头部：姓名与联系方式 -->
+    <header>
+        <h1>Duo Liu / 刘铎</h1>
+        <div class="affiliation">
+            Second-year Undergraduate Student <br>
+            Harbin Institute of Technology (HIT)
+        </div>
+        <div class="social-links">
+            <a href="mailto:2024112671@stu.hit.edu.cn">Email</a>
+            <a href="https://github.com/Cat-blizzard" target="_blank">GitHub</a>
+            <!-- 后续可补充 Google Scholar / LinkedIn / CV 链接 -->
+        </div>
+    </header>
+
+    <!-- 2. 个人简介 -->
+    <section id="bio">
+        <h2>About Me</h2>
+        <p class="placeholder">To be updated...</p>
+    </section>
+
+    <!-- 3. 研究方向 -->
+    <section id="research">
+        <h2>Research Interests</h2>
+        <p>
+            My research interests mainly focus on <strong>Embodied AI</strong>, <strong>Reinforcement Learning</strong>, and <strong>Out-of-Distribution (OOD) Detection</strong>.
+        </p>
+    </section>
+
+    <!-- 4. 新闻动态 (预留后续补充) -->
+    <section id="news">
+        <h2>News</h2>
+        <p class="placeholder">To be updated...</p>
+    </section>
+
+    <!-- 5. 教育经历 -->
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li class="entry">
+                <div class="title">Harbin Institute of Technology (HIT)</div>
+                <div class="meta">B.Eng. in Artificial Intelligence, Sep. 2024 - Jun. 2028 (Expected)</div>
+                <div class="meta">Second-year Undergraduate, Supervised by Prof. Shuo Yang</div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- 6. 发表论文 (预留后续补充) -->
+    <section id="publications">
+        <h2>Publications</h2>
+        <p class="placeholder">To be updated...</p>
+    </section>
+
+    <!-- 7. 荣誉与奖项 -->
+    <section id="awards">
+        <h2>Honors & Awards</h2>
+        <ul>
+            <li class="entry">
+                <div class="title">People's Scholarship of Harbin Institute of Technology</div>
+                <div class="meta">2025</div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- 8. 开源项目 (预留后续补充) -->
+    <section id="projects">
+        <h2>Open Source Projects</h2>
+        <p class="placeholder">To be updated...</p>
+    </section>
+
+    <!-- 9. 学术服务 (预留后续补充) -->
+    <section id="service">
+        <h2>Academic Service</h2>
+        <p class="placeholder">To be updated...</p>
+    </section>
+
+</div>
+
 </body>
 </html>
