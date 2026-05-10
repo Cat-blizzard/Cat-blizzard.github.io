@@ -102,23 +102,11 @@ a:hover {
   width: 132px;
   height: 132px;
   margin: 0 0 18px;
+  display: block;
   border-radius: 50%;
-  background: #e4e7e9;
-  display: grid;
-  place-items: center;
-}
-
-.avatar span {
-  width: 86px;
-  height: 86px;
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-  color: #ffffff;
-  background: #aeb6bb;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 30px;
-  font-weight: 700;
+  border: 1px solid var(--border);
+  object-fit: cover;
+  object-position: center 35%;
 }
 
 .sidebar h1 {
@@ -149,6 +137,7 @@ a:hover {
   gap: 5px;
   align-items: baseline;
   margin: 7px 0;
+  overflow-wrap: anywhere;
 }
 
 .icon {
@@ -238,12 +227,6 @@ strong {
   .avatar {
     width: 112px;
     height: 112px;
-  }
-
-  .avatar span {
-    width: 72px;
-    height: 72px;
-    font-size: 24px;
   }
 
   .content {
